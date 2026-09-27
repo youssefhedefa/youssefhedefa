@@ -29,7 +29,7 @@ jobs:
         with:
           fail_on_error: true
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&show=prs_merged,reviews&custom_title=GitHub%20Activity&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&hide_border=true&border_radius=12&disable_animations=true&card_width=495
+          options: username=${{ github.repository_owner }}&show_icons=true&rank_icon=github&show=prs_merged,reviews&custom_title=GitHub%20Activity&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&hide_border=true&border_radius=12&disable_animations=true&card_width=495
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -38,7 +38,7 @@ jobs:
         with:
           fail_on_error: true
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=donut&langs_count=8&custom_title=Most%20Used%20Languages&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&hide_border=true&border_radius=12&disable_animations=true&card_width=495
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&custom_title=Most%20Used%20Languages&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&hide_border=true&border_radius=12&disable_animations=true&card_width=495
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
