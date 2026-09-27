@@ -286,18 +286,19 @@ My work goes beyond implementing application screens and features. I regularly w
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <p align="center">
-<img src="./profile/stats.svg" alt="Youssef Hedefa GitHub Stats" />
+<a href="https://github.com/youssefhedefa?tab=repositories"><img width="49%" src="./profile/stats.svg" alt="Youssef Hedefa's GitHub activity, merged pull requests, and code reviews" /></a>
+<a href="https://github.com/youssefhedefa?tab=repositories"><img width="49%" src="./profile/top-langs.svg" alt="Most used languages in public repositories" /></a>
 </p>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=youssefhedefa" alt="Youssef Hedefa GitHub Streak" />
+<a href="https://github.com/youssefhedefa?tab=overview"><img width="100%" src="./profile/streak.svg" alt="Total GitHub contributions, current streak, and longest streak" /></a>
 </p>
 
 <p align="center">
-<img src="./profile/top-langs.svg" alt="Top Languages" />
+<sub>Updated daily · Activity statistics reflect accessible GitHub data. Language percentages describe repository code, not proficiency.</sub>
 </p>
 
 ---
