@@ -29,7 +29,7 @@ jobs:
         with:
           fail_on_error: true
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&show=prs_merged,reviews&custom_title=GitHub%20Activity&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&hide_border=true&border_radius=12&disable_animations=true&card_width=495
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -38,9 +38,43 @@ jobs:
         with:
           fail_on_error: true
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true
+          options: username=${{ github.repository_owner }}&layout=donut&langs_count=8&custom_title=Most%20Used%20Languages&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&hide_border=true&border_radius=12&disable_animations=true&card_width=495
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate contribution streak card
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: user=${{ github.repository_owner }}&background=0D1117&border=30363D&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&border_radius=12&card_width=1010&card_height=195&timezone=Africa%2FCairo&disable_animations=true
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Align card canvases
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import xml.etree.ElementTree as ET
+
+          paths = [Path("profile/stats.svg"), Path("profile/top-langs.svg")]
+          cards = [path.read_text() for path in paths]
+          roots = [ET.fromstring(card) for card in cards]
+          height = max(float(root.attrib["height"].removesuffix("px")) for root in roots)
+          for path, card, root in zip(paths, cards, roots):
+              width = float(root.attrib["width"].removesuffix("px"))
+              original_height = float(root.attrib["height"].removesuffix("px"))
+              offset = (height - original_height) / 2
+              # Keep the original SVG intact inside a shared, bordered canvas.
+              card = re.sub(r'<\?xml[^>]*\?>', '', card).strip()
+              wrapped = (
+                  f'<svg xmlns="http://www.w3.org/2000/svg" width="495" height="{height:g}" viewBox="0 0 495 {height:g}" role="img">'
+                  f'<title>{path.stem.replace("-", " ").title()}</title>'
+                  f'<rect x="0.5" y="0.5" width="494" height="{height - 1:g}" rx="12" fill="#0D1117" stroke="#30363D"/>'
+                  f'<g transform="translate(1,{offset + 1:g}) scale({493 / width:g})">{card}</g></svg>'
+              )
+              ET.fromstring(wrapped)
+              path.write_text(wrapped)
+          PY
 
       - name: Commit updated cards
         run: |
