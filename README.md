@@ -289,7 +289,7 @@ My work goes beyond implementing application screens and features. I regularly w
 ## 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=youssefhedefa&show_icons=true&locale=en" alt="Youssef Hedefa GitHub Stats" />
+<img src="./profile/stats.svg" alt="Youssef Hedefa GitHub Stats" />
 </p>
 
 <p align="center">
@@ -297,7 +297,7 @@ My work goes beyond implementing application screens and features. I regularly w
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=youssefhedefa&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+<img src="./profile/top-langs.svg" alt="Top Languages" />
 </p>
 
 ---
