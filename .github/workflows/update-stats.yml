@@ -61,6 +61,7 @@ jobs:
           roots = [ET.fromstring(card) for card in cards]
           height = max(float(root.attrib["height"].removesuffix("px")) for root in roots)
           for path, card, root in zip(paths, cards, roots):
+              card = card.replace("(last year)", "(12 mo)")
               width = float(root.attrib["width"].removesuffix("px"))
               original_height = float(root.attrib["height"].removesuffix("px"))
               offset = (height - original_height) / 2
