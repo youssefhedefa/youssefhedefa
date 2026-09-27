@@ -1,41 +1,320 @@
-<h1>Hi 👋, I'm Youssef Mohamed Hedefa</h1>
-<p>Welcome to my profile! I'm a Flutter & Dart developer passionate about building cross-platform mobile applications with clean architecture and a great user experience. I love solving problems, integrating advanced features like ML, and delivering apps that users actually enjoy.</p>
+<h1 align="center">Hi 👋, I'm Youssef Mohamed Hedefa</h1>
 
-<h2>🚀 Core Skills & Tools</h2>
-<p>
-<a target="_blank" href="https://flutter.dev" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="42" height="42" /></a>
-<a target="_blank" href="https://dart.dev" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="42" height="42" /></a>
-<a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="42" height="42" /></a>
-<a target="_blank" href="https://www.c-sharpcorner.com/" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="42" height="42" /></a>
-<a target="_blank" href="https://www.python.org/" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42" /></a>
-<a target="_blank" href="https://nodejs.org" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="42" height="42" /></a>
-<a target="_blank" href="https://www.mongodb.com/" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="42" height="42" /></a>
-<a target="_blank" href="https://firebase.google.com/" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="42" height="42" /></a>
-<a target="_blank" href="https://heroku.com" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="42" height="42" /></a>
-<a target="_blank" href="https://flask.palletsprojects.com/" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="42" height="42" /></a>
+<h3 align="center">Software Engineer | Building Reliable, Scalable & User-Focused Products</h3>
+
+<p align="center">
+Software Engineer with 2+ years of professional experience building, maintaining, and scaling production software products.
+Experienced across the software development lifecycle, including system architecture, feature development, API integration,
+real-time communication, performance optimization, CI/CD, production debugging, and deployment.
 </p>
 
-<h2>📱 What I Build</h2>
-<ul>
-<li><strong>7asad:</strong> Agriculture app for Egypt’s farmers, including marketplace, ML-based disease scanner, chat & community features.</li>
-<li><strong>Marketos:</strong> E-commerce app with categories, cart, notifications, favorites, and payment integration using Fawaterak.</li>
-<li><strong>Mo3een:</strong> Worship assistant app with prayer times, offline Quran, Athkar, Tasbeeh, and Qibla compass.</li>
-<li><strong>Swag:</strong> Real estate app to manage properties, payments, maintenance requests, and real-time updates using Flutter, Dio, Firebase & CI/CD pipelines.</li>
-</ul>
+<p align="center">
+<a href="https://www.linkedin.com/in/youssef-hedefa-0a7449204/" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-Youssef%20Hedefa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 
-<h2>⚡️ Other Skills & Expertise</h2>
-<p>
-State Management (Bloc, Cubit, Provider, Riverpod), Clean Architecture, MVVM, RESTful APIs, Firebase (Auth, Firestore, Cloud Messaging, Cloud Functions, Remote Config, Storage), Push Notifications, In-App Payments (Fawaterak, Stripe, Apple Pay, Google Pay), Offline-First Apps, Localization, ML Integration, CI/CD (Codemagic, GitHub Actions), Unit/Integration/Widget Testing, Git, GitHub, Agile/Scrum (Jira, Trello), Code Review, Problem Solving, UI/UX Implementation
+<a href="mailto:mohamedyoussief56@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<img src="https://komarev.com/ghpvc/?username=youssefhedefa&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
 </p>
 
-<h2>⚡️ Where to Find Me</h2>
-<p>
-<a target="_blank" href="https://www.linkedin.com/in/youssef-hedefa-0a7449204/" style="display: inline-block;"><img src="https://img.shields.io/badge/linkedin-logo?style=for-the-badge&logo=linkedin&logoColor=white&color=%230a77b6" alt="linkedin" /></a>
+---
+
+## 👨‍💻 About Me
+
+- 💻 Software Engineer with hands-on experience delivering production software products
+- 🏗️ Experienced with software architecture, maintainable codebases, and scalable application design
+- 📱 Strong experience in cross-platform and mobile application development
+- 🌐 Experienced with RESTful APIs, backend integrations, WebSockets, real-time systems, and data synchronization
+- ⚡ Work with asynchronous and event-driven programming using streams and real-time communication
+- 🔥 Experienced with Firebase services, authentication, databases, notifications, remote configuration, and cloud integrations
+- 💳 Integrated payment systems, In-App Purchases, Ads, Apple Pay, Google Pay, Stripe, and regional payment gateways
+- 📴 Experienced in offline-first systems, caching, synchronization, and low-connectivity scenarios
+- 🔄 Build and maintain CI/CD pipelines and production release workflows
+- 🛠️ Handle production debugging, crashes, deployment issues, and release problems
+- 👥 Perform code reviews, support junior developers, and collaborate with engineering, QA, design, and product teams
+- 🌍 Worked on software products across logistics, fintech, ERP, real estate, e-commerce, commodities, and service marketplaces
+
+---
+
+## 🛠️ Technologies & Tools
+
+<p align="left">
+
+<a href="https://flutter.dev" target="_blank">
+<img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="45" height="45"/>
+</a>
+
+<a href="https://dart.dev" target="_blank">
+<img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart" width="45" height="45"/>
+</a>
+
+<a href="https://kotlinlang.org/" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="45" height="45"/>
+</a>
+
+<a href="https://www.java.com/" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="45" height="45"/>
+</a>
+
+<a href="https://developer.apple.com/swift/" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="Swift" width="45" height="45"/>
+</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="45" height="45"/>
+</a>
+
+<a href="https://react.dev/" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="45" height="45"/>
+</a>
+
+<a href="https://www.python.org/" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="45" height="45"/>
+</a>
+
+<a href="https://nodejs.org/" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="45" height="45"/>
+</a>
+
+<a href="https://www.mongodb.com/" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="45" height="45"/>
+</a>
+
+<a href="https://firebase.google.com/" target="_blank">
+<img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="45" height="45"/>
+</a>
+
+<a href="https://git-scm.com/" target="_blank">
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="45" height="45"/>
+</a>
+
+<a href="https://github.com/" target="_blank">
+<img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="GitHub" width="45" height="45"/>
+</a>
+
 </p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=youssefhedefa&label=Profile%20views&color=0e75b6&style=flat" alt="youssefhedefa" /> </p>
+---
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=youssefhedefa&show_icons=true&locale=en" alt="youssefhedefa" /></p>
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=youssefhedefa&" alt="youssefhedefa" /></p>
-<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=youssefhedefa&show_icons=true&locale=en&layout=compact" alt="youssefhedefa" /></p>
-<p><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=youssefhedefa" alt="youssefhedefa" /></a></p>
+## ⚙️ Technical Expertise
+
+### 🧩 Software Engineering
+
+`OOP` `SOLID Principles` `Design Patterns`  
+`Clean Architecture` `MVVM` `MVC`  
+`Data Structures & Algorithms`  
+`Code Review` `Refactoring` `Technical Debt Reduction`
+
+### 💻 Programming Languages
+
+`Dart` `Kotlin` `Java` `Swift`  
+`JavaScript` `Python` `C#`
+
+### 📱 Mobile Development
+
+`Flutter` `Cross-Platform Development`  
+`Android Development` `iOS Fundamentals`  
+`Responsive UI`  
+`Bloc` `Cubit` `Provider` `Riverpod`
+
+### 🌐 Web Development
+
+`React` `JavaScript`  
+`Responsive Web Development`  
+`REST API Integration`  
+`Frontend Architecture`
+
+### 🌐 APIs & Real-Time Systems
+
+`RESTful APIs` `Dio` `Retrofit`  
+`WebSockets` `Dart Streams`  
+`Real-Time Data Synchronization`  
+`Postman` `Swagger`
+
+### ☁️ Backend & Cloud
+
+`Node.js` `MongoDB`  
+`Firebase Authentication` `Firestore`  
+`Cloud Messaging` `Remote Config`  
+`Cloud Functions` `Firebase Storage`
+
+### 💳 Payments & Product Integrations
+
+`Stripe` `Fawaterak` `Fatora`  
+`Apple Pay` `Google Pay`  
+`In-App Purchases` `Ads`  
+`Push Notifications` `Localization`
+
+### 📴 Reliability & Performance
+
+`Offline-First Architecture`  
+`Caching` `State Synchronization`  
+`Performance Optimization`  
+`Production Debugging`  
+`Crash & Release Issue Resolution`
+
+### 🚀 CI/CD & Release Engineering
+
+`GitHub Actions` `Codemagic`  
+`Firebase App Distribution` `TestFlight`  
+`Google Play` `App Store`  
+`Git` `GitHub`
+
+### 🤝 Engineering Collaboration
+
+`Agile/Scrum` `Jira` `Trello`  
+`Code Review` `Technical Communication`  
+`Mentoring` `Cross-Functional Collaboration`
+
+---
+
+## 🚀 Selected Production Work
+
+### Gold Fawry — 50,000+ Downloads
+
+Commodities and financial utilities platform developed for the MENA market.
+
+- Core product development
+- Real-time data handling
+- Offline-first workflows
+- Caching and synchronization
+- Financial calculators
+- Ads and In-App Purchases
+- CI/CD and production releases
+
+---
+
+### FastEx — 1,000+ Downloads
+
+Multi-modal logistics platform supporting different transportation and delivery workflows.
+
+- Ride-hailing
+- Parcel delivery
+- Inter-city shipping
+- Live trip tracking
+- Dispatch workflows
+- Payments
+- Real-time synchronization
+- Push notifications
+
+---
+
+### Mangoul — 6,000+ Combined Downloads
+
+Two-sided logistics marketplace consisting of customer and service-provider applications.
+
+- Real-time bidding workflows
+- User and provider platforms
+- Cross-application notification routing
+- Legacy code modernization
+- Production feature development
+- Technical debt reduction
+
+---
+
+### Rubbish — 500+ Downloads
+
+Service scheduling and operations platform.
+
+- Fixed and on-demand scheduling
+- Backend synchronization
+- Notification-driven workflows
+- Production system maintenance
+
+---
+
+### Swag — Real Estate Platform
+
+Production real estate product covering both mobile and web experiences.
+
+- Customer mobile application
+- Web dashboard
+- REST API integrations
+- Push notifications
+- Administrative workflows
+- CI/CD
+- Android and iOS releases
+
+---
+
+## 💡 Selected Projects
+
+### 🕌 Mo3een — Worship Assistant
+
+Offline-first application featuring:
+
+- Quran
+- Prayer times
+- Qibla direction
+- Athkar & Tasbeeh
+- Device sensors
+- Location services
+- Scheduled notifications
+- Local persistence
+
+---
+
+### 🌾 7asad — Graduation Project
+
+Agricultural marketplace built as my university graduation project.
+
+- Marketplace workflows
+- Real-time chat
+- Firebase OTP authentication
+- Machine-learning crop disease detection
+- Firebase integrations
+
+---
+
+## 🧠 Engineering Experience
+
+My work goes beyond implementing application screens and features. I regularly work on:
+
+- Designing and maintaining software architecture
+- Refactoring legacy systems
+- Investigating production issues
+- Debugging application and integration problems
+- Reviewing code
+- Reducing duplicated logic and technical debt
+- Managing releases and deployments
+- Collaborating with backend engineers
+- Working with QA, UI/UX, and product teams
+- Supporting and mentoring junior developers
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=youssefhedefa&show_icons=true&locale=en" alt="Youssef Hedefa GitHub Stats" />
+</p>
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=youssefhedefa" alt="Youssef Hedefa GitHub Streak" />
+</p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=youssefhedefa&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+</p>
+
+---
+
+## 📫 Let's Connect
+
+<p>
+I'm interested in software engineering, system design, application architecture,
+real-time systems, scalable products, and solving challenging engineering problems.
+</p>
+
+<p>
+<a href="https://www.linkedin.com/in/youssef-hedefa-0a7449204/" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="mailto:mohamedyoussief56@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+</p>
