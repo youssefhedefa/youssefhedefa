@@ -33,13 +33,13 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate top languages card
+      - name: Generate featured project card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           fail_on_error: true
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&custom_title=Most%20Used%20Languages&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&hide_border=true&border_radius=12&disable_animations=true&card_width=495
-          path: profile/top-langs.svg
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=7asad&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&hide_border=true&border_radius=12&disable_animations=true&card_width=495
+          path: profile/featured-project.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate contribution streak card
@@ -56,7 +56,7 @@ jobs:
           import re
           import xml.etree.ElementTree as ET
 
-          paths = [Path("profile/stats.svg"), Path("profile/top-langs.svg")]
+          paths = [Path("profile/stats.svg"), Path("profile/featured-project.svg")]
           cards = [path.read_text() for path in paths]
           roots = [ET.fromstring(card) for card in cards]
           height = max(float(root.attrib["height"].removesuffix("px")) for root in roots)
